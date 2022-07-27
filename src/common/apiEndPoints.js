@@ -1,7 +1,7 @@
 
 const Host = {
   ROOT: "http://localhost:3000",
-  BACKEND: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? "http://localhost:3000" : "https://db.cheap-shop.net" ,
+  BACKEND: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ? "http://localhost:3000" : "https://api.cheap-shop.net" ,
   PREFIX: "/v1/api", 
 }; 
   
